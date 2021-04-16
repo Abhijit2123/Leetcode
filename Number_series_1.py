@@ -8,7 +8,7 @@ class term():
             return b
         if N > 2:
             if (N-2) % 2 != 0:
-                term = 7 + ((N-3)//2)*7
+                term = 7 + ((N-3)//2)*7               # Here the series in AP so tn = a + (n-1)d
                 return term
             else:
                 term = 6 + ((N-3)//2)*6
